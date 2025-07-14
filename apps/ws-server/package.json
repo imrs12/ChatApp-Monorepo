@@ -11,13 +11,17 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
     "@repo/typescript-config": "workspace:*",
+    "@repo/commons": "workspace:*",
     "@types/jsonwebtoken": "^9.0.10",
     "@types/ws": "^8.18.1",
+    "@repo/database" : "workspace:*",
     "dotenv": "^17.2.0",
     "jsonwebtoken": "^9.0.2",
     "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "@repo/database": "workspace:*"
   }
 }
