@@ -4,7 +4,6 @@ import dotenv from "dotenv"
 import { middleware } from "./middleware";
 import { UserValidation, User , CreateRoomType, SigninType, Room}from "@repo/commons/types"
 import { prismaClient } from "@repo/database/index"
-import { PassThrough } from "stream";
 
 dotenv.config();
 
