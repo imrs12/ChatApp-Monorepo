@@ -75,8 +75,7 @@ app.post("/signin", async(req: Request, res: Response)=>{
         res.status(200).json({
             Message: "Signin Succesfully",
             Success: true,
-            token: token,
-            User: User
+            token: token
         })
     }else{
          res.status(411).json({
